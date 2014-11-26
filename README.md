@@ -18,10 +18,10 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 'preamble': '''
 \usepackage{xeCJK}
-\setCJKmainfont[BoldFont=SimHei, ItalicFont=KaiTi_GB2312]{SimSun}
-\setCJKmonofont[Scale=0.9]{KaiTi_GB2312}
-\setCJKfamilyfont{song}[BoldFont=SimSun]{SimSun}
-\setCJKfamilyfont{sf}[BoldFont=SimSun]{SimSun}
+\setCJKmainfont{WenQuanYi Zen Hei Sharp}
+\setCJKmonofont[Scale=0.9]{WenQuanYi Zen Hei Mono}
+\setCJKfamilyfont{song}{WenQuanYi Zen Hei}
+\setCJKfamilyfont{sf}{WenQuanYi Zen Hei}
 ''',
 }
 ```
@@ -51,10 +51,10 @@ latex_elements = {
 \usepackage{xeCJK}
 \usepackage{indentfirst}
 \setlength{\parindent}{2em}
-\setCJKmainfont[BoldFont=SimHei, ItalicFont=KaiTi_GB2312]{SimSun}
-\setCJKmonofont[Scale=0.9]{KaiTi_GB2312}
-\setCJKfamilyfont{song}[BoldFont=SimSun]{SimSun}
-\setCJKfamilyfont{sf}[BoldFont=SimSun]{SimSun}
+\setCJKmainfont{WenQuanYi Zen Hei Sharp}
+\setCJKmonofont[Scale=0.9]{WenQuanYi Zen Hei Mono}
+\setCJKfamilyfont{song}{WenQuanYi Zen Hei}
+\setCJKfamilyfont{sf}{WenQuanYi Zen Hei}
 ''',
 }
 ```
