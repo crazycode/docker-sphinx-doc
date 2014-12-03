@@ -1,6 +1,6 @@
-FROM        ubuntu:latest
+FROM debian:wheezy
 
-MAINTAINER crazycode "https://github.com/crazycode"
+MAINTAINER crazycode
 
 RUN   apt-get update
 
